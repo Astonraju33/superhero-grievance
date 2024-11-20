@@ -1,0 +1,62 @@
+.view-grievances-page {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #ffdd57;
+    margin-bottom: 20px;
+  }
+  
+  .no-grievances {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #e0e0e0;
+  }
+  
+  .grievances-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .grievance-item {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .grievance-item h3 {
+    color: #ffdd57;
+    margin-bottom: 10px;
+  }
+  
+  .grievance-item p {
+    margin: 5px 0;
+    color: #e0e0e0;
+  }
+  
+  .back-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #ffdd57;
+    color: #1e3c72;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-link:hover {
+    background-color: #ffd700;
+  }
+  

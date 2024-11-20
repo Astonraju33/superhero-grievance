@@ -1,0 +1,54 @@
+.home {
+    background: url("/public/images/mainwall3.jpg") no-repeat center center/cover;
+    height: calc(100vh);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .overlay {
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .hero-content {
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    max-width: 800px;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    line-height: 1.6;
+  }
+  
+  .cta-button {
+    padding: 12px 25px;
+    background-color: #ffcc00;
+    color: #1f4037;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #e6b800;
+    transform: scale(1.05);
+  }
+  
